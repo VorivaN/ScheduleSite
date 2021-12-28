@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true">
+    <siteMapNode title="Home" description="Schedule manager home page" url="~/ScheduleItems.aspx" roles="*">
+        <siteMapNode title="ScheduleItems" description="">
+            <siteMapNode title="New" description="Create New Item" url="~/AddItem.aspx" />
+            <siteMapNode title="Delete" description="Delete Item" url="~/DeleteItem.aspx" />
+        </siteMapNode>
+        <siteMapNode title="Help" description="">
+            <siteMapNode title="About" description="" url="~/About.aspx" />
+        </siteMapNode>
+    </siteMapNode>
+</siteMap>
