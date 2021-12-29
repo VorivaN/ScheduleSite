@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="ScheduleItem.ascx.cs" Inherits="ScheduleItem" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="ScheduleItemDelete.ascx.cs" Inherits="ScheduleItemDelete" %>
 
 <div>
     <div>
@@ -77,10 +77,10 @@
     </div>
 
     <div>
-        <asp:Label ID="AddError" runat="server" Visible="false" > </asp:Label>
+        <asp:Label ID="DeleteError" runat="server" Visible="false" > </asp:Label>
         <br>
         <asp:ValidationSummary ID="ScheduleItemValidationSummary" runat="server"></asp:ValidationSummary>
-        <asp:Button ID="ScheduleItemAddButton" runat="server" Text="Add" OnClick="ScheduleItemAddButton_Click" />
+        <asp:Button ID="ScheduleItemDeleteButton" runat="server" Text="Delete" OnClick="ScheduleItemDeleteButton_Click" />
         &nbsp;<asp:Button ID="ScheduleItemCancelButton" runat="server" Text="Cancel" CausesValidation="false" OnClick="ScheduleItemCancelButton_Click" />
     </div>
 </div>

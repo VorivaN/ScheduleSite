@@ -6,7 +6,7 @@
     <title>Schedule manager</title>
     <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
 </head>
-<body class="template">
+<body>
     <form id="MainForm" runat="server">
         <div class="appTitle">
             <asp:Literal ID="AppTitleLiteral" runat="server" Text="Schedule Management"></asp:Literal>
